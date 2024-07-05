@@ -5,6 +5,18 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
+    background-color: rgb(98, 211, 166);
+}
+
+#sketch
+{
+    color: gold;
+    background-color: blueviolet;
+    text-align: center;
+    height: 3em;
+    width: 550px;
+    font-weight: 700;
 }
 
 #gridContainer
@@ -14,4 +26,16 @@ body
     height: 550px;
     width: 550px;
     border: 1px solid black;
+    background-color: white;
+    /* margin: auto; */
+}
+
+#gridSize
+{
+    /* margin: auto; */
+    height: 3em;
+    width: 550px;
+    color: gold;
+    background-color: blueviolet;
+    font-weight: 700;
 }
